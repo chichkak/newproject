@@ -1,4 +1,19 @@
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:gray;">
+
+<h1></h1>
+<p></p>
+
+</body>
+</html>
+
 <form action="{% url 'polls:vote' question.id %}" method="post">
+    <div>
+        <h2 class="box">
+        </h2>
+    </div>
     {% csrf_token %}
     <fieldset>
         <legend><h1>{{ question.question_text }}</h1></legend>

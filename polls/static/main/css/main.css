@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mainText {
+    margin: 5px;
+    padding: 5px;
+}
+.urltextBlock{
+    height: 100vh;
+}
+.urltextUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(51, 52, 52);
+    height: 100%;
+}
+.urltext {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    height: 100%;
+}
+.urltext:hover{
+    text-shadow: #F2F2F2 0px 0px 10px;
+}
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: aquamarine;
+}
